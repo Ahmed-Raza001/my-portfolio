@@ -7,114 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleais.com/css2?family=poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        body {
-            background-color: rgb(0, 0, 33);
-            color: white;
-            font-family: 'poppins', sans-serif;
-        }
-        nav {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 80px;
-            background-color: rgb(18, 18, 62);
-        }
-        nav ul {
-            display: flex;
-            justify-content: center;
-        }
-        nav ul li {
-            list-style: none;
-            margin: 0 23px;
-        }
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-        }
-        nav ul li a:hover{
-           color: rgb(153, 153, 226);
-           font-size: 1.01rem;
-        }
-        main hr {
-            border: 0;
-            background: #9c97f1;
-            height: 1.2px;
-            margin: 60px 84px;
-        }
-        .left {
-            font-size: 1.5rem;
-        }
-        .first {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            margin: 130px 0;
-        }
-        .first > div {
-            width: 30%;
-        }
-        .leftsection {
-           font-size: 3rem;
-          /* margin: 70px 0;*/
-        }
-         .rightsection img {
-          width: 80%;
-
-        }
-        .purple {
-            color: blueviolet;
-        }
-        .text-gray {
-            color: grey;
-        }
-        #element {
-            color: blueviolet;
-        }
-        .second {
-            max-width: 80vw;
-            margin: auto;
-            height: 80vh;
-        }
-        .second h1 {
-            font-size: 1.9rem;
-        }
-        .second .box{
-            background: white;
-            width: 80vw;
-            height: 2px;
-            margin: 56px 0;
-            display: flex;
-        }
-        .second .vertical {
-            height: 93px;
-            width: 1px;
-            background-color: white;
-            margin: 0 100px;
-        }
-        .image-top {
-            width: 23px;
-            position: relative;
-            top: -32px;
-            left: -9px;
-        }
-        .vertical-title {
-            position: relative;
-            top: 75px;
-            width: 150px;
-        }
-        .vertical-desc {
-            position: relative;
-            top: 86px;
-            color: gray;
-            width: 150px;
-            font-size: 9px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -141,6 +34,10 @@
                 and I am a Passionate
                 </h5>
                 <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
             </div>
             <div class="rightsection">
                 <img src="portfolio.png" alt="">
@@ -161,14 +58,80 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, earum aut est, eius neque eveniet obcaecati, saepe dignissimos enim cumque rem magnam modi.
                     </div>
                 </div>
-                <div class="vertical">
-                    Node.js Developer (2012-2014)
+                 <div class="vertical">
+                    <img class="image-top" src="developer.png">
+                    <div class="vertical-title">
+                        HTML Developer (2023-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, earum aut est, eius neque eveniet obcaecati, saepe dignissimos enim cumque rem magnam modi.
+                    </div>
                 </div>
-                <div class="vertical"></div>
-                <div class="vertical"></div>
+                 <div class="vertical">
+                    <img class="image-top" src="developer.png">
+                    <div class="vertical-title">
+                        HTML Developer (2023-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, earum aut est, eius neque eveniet obcaecati, saepe dignissimos enim cumque rem magnam modi.
+                    </div>
+                </div>
+                 <div class="vertical">
+                    <img class="image-top" src="developer.png">
+                    <div class="vertical-title">
+                        HTML Developer (2023-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, earum aut est, eius neque eveniet obcaecati, saepe dignissimos enim cumque rem magnam modi.
+                    </div>
+                </div>
+                 <div class="vertical">
+                    <img class="image-top" src="developer.png">
+                    <div class="vertical-title">
+                        HTML Developer (2023-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, earum aut est, eius neque eveniet obcaecati, saepe dignissimos enim cumque rem magnam modi.
+                    </div>
+                </div>
             </div>
         </section>
     </main>
+
+    <footer>
+        <div class="footer">
+            <div class="box1">
+                <h3>Ahmed's Portfolio</h3>
+            </div>
+            <div class="box2">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="box3">
+                  <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="box4">
+                  <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; Ahmedportfolio.com | All rights reserved
+        </div>
+    </footer>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
