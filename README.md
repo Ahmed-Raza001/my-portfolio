@@ -108,19 +108,19 @@
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{E-Commerce Platform} $|$ \emph{HTML, CSS, JavaScript, React.js}}{2023 -- 2024}
+          {\textbf{Online Bus Ticket Booking Web Application} $|$ \emph{HTML, CSS, Tailwind, JavaScript, React.js}}{2024 -- 2025}
           \resumeItemListStart
-            \resumeItem{Developed full-stack e-commerce web application with product catalog, shopping cart, and checkout functionality}
-            \resumeItem{Implemented responsive design achieving 95+ mobile performance score using CSS Grid and Flexbox}
-            \resumeItem{Integrated payment gateway and user authentication system, handling 100+ concurrent users}
+            \resumeItem{Designed and developed a modern bus ticket booking platform using React.js, JavaScript, and Tailwind CSS.}
+            \resumeItem{Implemented features such as bus search, route details, seat selection, and responsive user interface.}
+            \resumeItem{The project highlights skills in frontend development, reusable React components, responsive design, and interactive UI development.}
             \resumeItem{Optimized page load times by 40\% through code splitting and lazy loading techniques}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{Portfolio Website} $|$ \emph{HTML5, CSS3, JavaScript, Git}}{2023}
+          {\textbf{Shopping Cart System} $|$ \emph{HTML5, CSS3, JavaScript, React, Git, GitHub}}{2025}
           \resumeItemListStart
-            \resumeItem{Created personal portfolio website showcasing web development projects with modern UI/UX design}
-            \resumeItem{Achieved 98\% accessibility score and full responsive design across all device sizes}
-            \resumeItem{Implemented smooth animations and transitions using CSS3 and vanilla JavaScript}
+            \resumeItem{Built an interactive shopping cart application using React.js for component-based development, JavaScript for functionality, and CSS3 for responsive UI design.}
+            \resumeItem{Implemented features such as product listing, add-to-cart functionality, quantity updates, and real-time price calculation to enhance the user shopping experience.}
+            \resumeItem{Implemented smooth animations and transitions using CSS3}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
@@ -129,7 +129,7 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {GROW MORE Institute of Commerce and Arts College}{Himatnagar, Gujarat}
-      {Bachelor of Science in Computer Applications \& Information Technology (B.Sc CA \& IT)}{Graduated: June 2026}
+      {Bachelor of Science in Computer Applications \& Information Technology (B.Sc CA \& IT)}{Graduated:2026}
       \resumeItemListStart
         \resumeItem{Relevant Coursework: Data Structures, Algorithms, Database Management, Web Technologies, Software Engineering}
         \resumeItem{Academic Projects: Developed multiple web applications demonstrating proficiency in full-stack development}
